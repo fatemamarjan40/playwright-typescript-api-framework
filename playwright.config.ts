@@ -23,6 +23,8 @@ export default defineConfig({
   reporter: [['html'], ['list']],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
+    baseURL: 'https://conduit.bondaracademy.com/',
+    trace: 'retain-on-failure'
 
   },
 
@@ -32,14 +34,22 @@ export default defineConfig({
       name: 'api-testing',
       testMatch: 'post*',
       dependencies: ['smoke-tests']
-     // use: { ...devices['Desktop Chrome'] },
+      // use: { ...devices['Desktop Chrome'] },
     },
     {
       name: 'smoke-tests',
-      testMatch: 'smoke*'
+      //testMatch: 'smoke*'
+    },
+    {
+      name:'ui_tests',
+      testDir: './tests/ui_tests',
+      use:{
+        defaultBrowserType: 'chromium'
+      }
     }
 
- 
+
+
   ],
 
 

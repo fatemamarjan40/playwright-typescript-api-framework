@@ -1,44 +1,106 @@
-🚀 API Automation Framework using Playwright + TypeScript
+# 🚀 Playwright API Automation Framework
 
-This project demonstrates a scalable API automation framework
-built with Playwright and TypeScript following industry best practices.
+A scalable API Automation Framework built using **Playwright** and **TypeScript** following industry-standard project structure and best practices.
 
-Features
+---
 
-✔ GET API Testing
-✔ POST API Testing
-✔ PUT API Testing
-✔ PATCH API Testing
-✔ DELETE API Testing
-✔ JSON Schema Validation
-✔ Request Payload Management
-✔ Reusable Utilities
-✔ Assertions
-✔ Playwright HTML Report
-✔ Configurable Environment
+## 📌 Features
 
-Tech Stack
+- API testing using Playwright
+- GET Requests
+- POST Requests
+- PUT Requests
+- PATCH Requests
+- DELETE Requests
+- JSON Schema Validation
+- Request Payload Management
+- Reusable Helper Methods
+- Environment Configuration
+- HTML Reporting
+- Assertions
 
-• Playwright
-• TypeScript
-• Node.js
-• JSON Schema
-• npm
+---
 
-Project Structure
+## 🛠 Tech Stack
 
-tests/
-helper/
-utils/
-request-objects/
-response-schema/
+- Playwright
+- TypeScript
+- Node.js
+- npm
+- JSON Schema
 
-Running Tests
+---
 
+## 📂 Project Structure
+
+```
+Playwright_ApiTesting
+│
+├── tests/
+├── helper/
+├── utils/
+├── request-objects/
+├── response-schema/
+├── playwright.config.ts
+├── package.json
+└── README.md
+```
+
+---
+
+## ⚙ Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/fatemamarjan40/api-automation-playwright-typescript
+```
+
+Install dependencies
+
+```bash
 npm install
+```
 
+---
+
+## ▶ Run Tests
+
+Run all tests
+
+```bash
 npx playwright test
+```
 
-Generate Report
+Run a specific test
 
+```bash
+npx playwright test tests/articles.spec.ts
+```
+
+---
+
+## 📊 Generate HTML Report
+
+```bash
 npx playwright show-report
+```
+
+---
+
+## 📚 What I Learned
+
+- API Automation using Playwright
+- REST API Testing
+- CRUD Operations
+- JSON Schema Validation
+- Writing reusable utilities
+- Organizing a scalable test framework
+
+---
+
+## 👩‍💻 Author
+
+**Fatema Marjan**
+
+Software Quality Assurance Engineer
