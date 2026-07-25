@@ -53,7 +53,7 @@ Playwright_ApiTesting
 Clone the repository
 
 ```bash
-git clone https://github.com/fatemamarjan40/api-automation-playwright-typescript
+git clone https://github.com/fatemamarjan40/playwright-typescript-api-framework
 ```
 
 Install dependencies
